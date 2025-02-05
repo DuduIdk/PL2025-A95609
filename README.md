@@ -13,4 +13,4 @@
 **ID:** a95609
 
 **Fotografia:**
-![Fotografia do Aluno](../descaregar)
+![Fotografia do Aluno](TPC1/20200928_192122.jpg)
