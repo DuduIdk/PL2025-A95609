@@ -7,7 +7,7 @@
 **Ano:** 2025
 
 ## Sobre este repositório
-Este repositório foi criado para a unidade curricular **Processamento de Dados**. O objetivo é armazenar os TPCs realizados ao longo do semestre.
+Este repositório foi criado para a unidade curricular **Processamento de Linguagens**. O objetivo é armazenar os TPCs realizados ao longo do semestre.
 
 ## Aluno
 
