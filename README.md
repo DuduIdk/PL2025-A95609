@@ -16,4 +16,5 @@ Este repositório foi criado para a unidade curricular **Processamento de Lingua
 **Número:** a95609
 
 **Fotografia:**
+
 ![Fotografia do Aluno](TPC1/20200928.jpg)

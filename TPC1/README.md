@@ -1,6 +1,6 @@
 ## TPC1 - Somador On/Off
 
-**Data:** 
+**Data:** 2025-02-07
 
 ## Resumo: 
 Este TPC, tem como objetivo criar um programa que some todas as sequências de dígitos, que sejam encontradas num texto. Este texto terá embutido comandos com as seguintes funções:
@@ -18,4 +18,5 @@ Este TPC, tem como objetivo criar um programa que some todas as sequências de d
 **Número:** a95609
 
 **Fotografia:**
+
 ![Fotografia do Autor](TPC1/20200928.jpg) 
