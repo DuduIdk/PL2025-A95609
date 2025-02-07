@@ -13,7 +13,7 @@ Este repositório foi criado para a unidade curricular **Processamento de Lingua
 
 **Nome:** Duarte Alexandre Oliveira Faria
 
-**ID:** a95609
+**Número:** a95609
 
 **Fotografia:**
-![Fotografia do Aluno](TPC1/20200928_192122.jpg)
+![Fotografia do Aluno](TPC1/20200928.jpg)
