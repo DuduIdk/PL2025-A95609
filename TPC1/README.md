@@ -9,7 +9,7 @@ Este TPC, tem como objetivo criar um programa que some todas as sequências de d
 - `"="` imprime o valor atual da soma.  
 
 ## Resultados
-- [Código fonte (`somador.py`)](TPC1/somador.py)
+- [Código fonte (`somador.py`)](somador.py)
 
 ## Autor
 
@@ -19,4 +19,4 @@ Este TPC, tem como objetivo criar um programa que some todas as sequências de d
 
 **Fotografia:**
 
-![Fotografia do Autor](TPC1/20200928.jpg) 
+![Fotografia do Autor](20200928.jpg) 
