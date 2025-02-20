@@ -1,17 +1,18 @@
 import re
 
-file = open("TPC2\obras.csv", "r", encoding="utf-8")
+file = open("TPC2/obras.csv", "r", encoding="utf-8")
 
 ignoreHeader = file.readline()
 
 compositores =[]
+numObrasPeriodo = {}
+obrasPeriodo = {}
 
-while line:
-    print(line.strip())
-    line = file.readline()
+while line := file.readline():
+    
     reg = re.split(r';(?=(?:[^"]*"[^"]*")*[^"]*$)', line)
     while len(reg) < 7:
-        newLine = file.readLine().strip()
+        newLine = file.readline().strip()
         if not newLine:
             break
         line += " " + newLine
@@ -30,7 +31,7 @@ for periodo in obrasPeriodo:
     obrasPeriodo[periodo].sort()
     
 print(compositores)
-print(numObrasPorPeriodo)
+print(numObrasPeriodo)
 print(obrasPeriodo)
 
 
