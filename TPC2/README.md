@@ -20,4 +20,4 @@ Este TPC, tem como objetivo criar um programa que leia o dataset, processá-lo e
 
 **Fotografia:**
 
-![Fotografia do Autor](20200928.jpg) 
+![Fotografia do Autor](TPC1/20200928.jpg) 
