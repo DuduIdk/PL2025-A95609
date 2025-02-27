@@ -4,20 +4,21 @@
 
 ## Resumo: 
 Este TPC, tem como objetivo criar um conversor de MarkDown para HTML.
-- Cabeçalhos: linhas iniciadas por "# texto", ou "## texto" ou "### texto"
+- Cabeçalhos: linhas iniciadas por "# texto", ou "## texto" ou "### texto".
     In: `# Exemplo`
     Out: `<h1>Exemplo</h1>`
-- Bold: pedaços de texto entre "**":
+- Bold: pedaços de texto entre "**".
     In: `Este é um **exemplo** ...`
     Out: `Este é um <b>exemplo</b> ...`
-- Itálico: pedaços de texto entre "*":
+- Itálico: pedaços de texto entre "*".
     In: `Este é um *exemplo* ...`
     Out: `Este é um <i>exemplo</i> ...`
-- Lista numerada:
+- Lista numerada.
     In: 
-      1. Primeiro item
-      2. Segundo item
-      3. Terceiro item
+
+        1. Primeiro item
+        2. Segundo item
+        3. Terceiro item
     Out:
 
         <ol>
