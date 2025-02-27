@@ -61,4 +61,4 @@ Este TPC, tem como objetivo criar um conversor de MarkDown para HTML.
 
 **Fotografia:**
 
-![Fotografia do Autor](PL2025-A95609\TPC1\20200928.jpg) 
+![Fotografia do Autor](TPC1\20200928.jpg) 
