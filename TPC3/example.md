@@ -1,11 +1,15 @@
 # Example
 
 **Bold**
+Este é um **exemplo** ...
 
 *italic*
+Este é um *exemplo* ...
 
-1. Lista
-2. Numerada
+1. Primeiro item
+2. Segundo item
+3. Terceiro item
 
-[página da UC](http://www.uc.pt)
-![imagem de um coelho](http://www.coellho.com)
+Como pode ser consultado em [página da UC](http://www.uc.pt)
+
+Como se vê na imagem seguinte: ![imagem de um coelho](http://www.coellho.com)

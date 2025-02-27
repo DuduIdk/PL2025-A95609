@@ -19,13 +19,13 @@ def md2html(mdtext):
     
     #ordered lists (1. text  -> <ol><li>text</li></o>)
     mdtext = re.sub(r'(?m)(^\d+\..*(?:\n\d+\..*)*)', 
-                    lambda match: "<ol>\n" + re.sub(r'^\d+.\s*(.*)', r'\t<li>\1</li>', match.group(0), flags = re.M) + "\n</ol>", mdtext)
+                    lambda match: "<ol>\n" + re.sub(r'^\d+.\s*(.*)', r'<li>\1</li>', match.group(0), flags = re.M) + "\n</ol>", mdtext)
+                            
+    #images (![alternative text](path to the image))
+    mdtext = re.sub(r'!\[(.*?)\]\((.*?)\)', r'<img src="\2" alt="\1"/>', mdtext)                            
                             
     #links ([página da UC](http://www.uc.pt) -> <a href="http://www.uc.pt">página da UC</a>)
     mdtext = re.sub(r'\[(.*?)\]\((.*?)\)', r'<a href="\2">\1</a>', mdtext)
-    
-    #images (![alternative text](path to the image))
-    mdtext = re.sub(r'!\[(.*?)\]\((.*?)\)', r'<img src="\2" alt="\1"/>', mdtext)
     
     return mdtext
 """    

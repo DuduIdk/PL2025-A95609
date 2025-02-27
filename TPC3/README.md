@@ -1,30 +1,30 @@
-## TPC2 - Dataset de obras musicais
+## TPC3 - Conversor MarkDown para HTML
 
 **Data:** 2025-02-21
 
 ## Resumo: 
 Este TPC, tem como objetivo criar um conversor de MarkDown para HTML.
-Cabeçalhos: linhas iniciadas por "# texto", ou "## texto" ou "### texto"
-- In: `# Exemplo`
-- Out: `<h1>Exemplo</h1>`
+- Cabeçalhos: linhas iniciadas por "# texto", ou "## texto" ou "### texto"
+    In: `# Exemplo`
+    Out: `<h1>Exemplo</h1>`
 - Bold: pedaços de texto entre "**":
-- In: `Este é um **exemplo** ...`
-- Out: `Este é um <b>exemplo</b> ...`
+    In: `Este é um **exemplo** ...`
+    Out: `Este é um <b>exemplo</b> ...`
 - Itálico: pedaços de texto entre "*":
-- In: `Este é um *exemplo* ...`
-- Out: `Este é um <i>exemplo</i> ...`
-Lista numerada:
-In: <md>
-    1. Primeiro item
-    2. Segundo item
-    3. Terceiro item
-Out:
-<html>
-    <ol>
-    <li>Primeiro item</li>
-    <li>Segundo item</li>
-    <li>Terceiro item</li>
-    </ol>
+    In: `Este é um *exemplo* ...`
+    Out: `Este é um <i>exemplo</i> ...`
+- Lista numerada:
+    In: 
+      1. Primeiro item
+      2. Segundo item
+      3. Terceiro item
+    Out:
+
+        <ol>
+        <li>Primeiro item</li>
+        <li>Segundo item</li>
+        <li>Terceiro item</li>
+        </ol>
 Link: [texto](endereço URL)
 In: ` Como pode ser consultado em [página da UC](http://www.uc.pt)`
 Out: `Como pode ser consultado em <a href="http://www.uc.pt">página da UC</a>`
