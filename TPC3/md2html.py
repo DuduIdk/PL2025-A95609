@@ -7,9 +7,6 @@ def md2html(mdtext):
     mdtext = re.sub(r'(?m)^# (.+)$', r'<h1>\1</h1>', mdtext)
     mdtext = re.sub(r'(?m)^## (.+)$', r'<h2>\1</h2>', mdtext)
     mdtext = re.sub(r'(?m)^### (.+)$', r'<h3>\1</h3>', mdtext)
-    #mdtext = re.sub(r'(?m)^#### (.+)$', r'<h4>\1<h4>', mdtext)
-    #mdtext = re.sub(r'(?m)^##### (.+)%', r'<h5>\1<h5>', mdtext)
-    #mdtext = re.sub(r'(?m)^###### (.+)%', r'<h6>\1<h6>', mdtext)
     
     #bold text (**Bold** -> <b>Bold</b>)
     mdtext = re.sub(r'\*\*(.*?)\*\*', r'<b>\1</b>', mdtext)
