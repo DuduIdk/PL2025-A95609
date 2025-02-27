@@ -18,9 +18,9 @@ def md2html(mdtext):
     mdtext = re.sub(r'\*(.*?)\*', r'<i>\1</i>', mdtext)
     
     #ordered lists (1. text  -> <ol><li>text</li></o>)
-    mdtext = re.sub(r'(?m)^\d+\. (.+)$', r'<li>\1</li>', mdtext)
-    mdtext = re.sub(r'(?s)(<li>.*?</li>)', r'<ol>\1</ol>', mdtext)
-    
+    mdtext = re.sub(r'(?m)(^\d+\..*(?:\n\d+\..*)*)', 
+                    lambda match: "<ol>\n" + re.sub(r'^\d+.\s*(.*)', r'\t<li>\1</li>', match.group(0), flags = re.M) + "\n</ol>", mdtext)
+                            
     #links ([página da UC](http://www.uc.pt) -> <a href="http://www.uc.pt">página da UC</a>)
     mdtext = re.sub(r'\[(.*?)\]\((.*?)\)', r'<a href="\2">\1</a>', mdtext)
     
