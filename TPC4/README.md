@@ -4,6 +4,7 @@
 
 ## Resumo: 
 Este TPC consiste em criar um analisador léxico para uma linguagem de query. Por exemplo:
+
         #DBPedia: obras de Chuck Berry
 
         SELECT ?nome ?desc WHERE {
@@ -15,6 +16,7 @@ Este TPC consiste em criar um analisador léxico para uma linguagem de query. Po
         } LIMIT 1000
 
 O resultado esperado seria:
+
         COMMENT #DBPedia: obras de Chuck Berry
         SELECT SELECT
         VAR nome
