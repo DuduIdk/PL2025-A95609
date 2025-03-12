@@ -49,9 +49,7 @@ O resultado esperado seria:
         INT 1000
 
 ## Resultados
-- [Código fonte ()]()
-- [Ficheiro Markdown]()
-- [Ficheiro HTML]()
+- [Código fonte (`analex.py`)](analex.py)
 
 ## Autor
 
